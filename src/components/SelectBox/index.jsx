@@ -121,25 +121,25 @@ const SelectBox = React.forwardRef(
   },
 );
 
-SelectBox.propTypes = {
-  placeholder: PropTypes.string,
-  className: PropTypes.string,
-  options: PropTypes.array,
-  isSearchable: PropTypes.bool,
-  placeholderClassName: PropTypes.string,
-  isMulti: PropTypes.bool,
-  onChange: PropTypes.func,
-  value: PropTypes.string,
-};
+// SelectBox.propTypes = {
+//   placeholder: PropTypes.string,
+//   className: PropTypes.string,
+//   options: PropTypes.array,
+//   isSearchable: PropTypes.bool,
+//   placeholderClassName: PropTypes.string,
+//   isMulti: PropTypes.bool,
+//   onChange: PropTypes.func,
+//   value: PropTypes.string,
+// };
 
-SelectBox.defaultProps = {
-  placeholder: "Select",
-  className: "",
-  isSearchable: false,
-  placeholderClassName: "",
-  isMulti: false,
-  value: "",
-  options: [],
-  onChange: () => {},
-};
+// SelectBox.defaultProps = {
+//   placeholder: "Select",
+//   className: "",
+//   isSearchable: false,
+//   placeholderClassName: "",
+//   isMulti: false,
+//   value: "",
+//   options: [],
+//   onChange: () => {},
+// };
 export { SelectBox };
